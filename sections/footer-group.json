@@ -1,0 +1,119 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "FAST & FREE SHIPPING",
+            "content": "<p>All Orders Ship Free Within 2-3 Business Days<\/p>"
+          }
+        },
+        "icon-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "EXPERT CONCIERGE TEAM",
+            "content": "<p>Take The Guesswork Out of Choosing Your Biohacking Tool Of Choice<\/p>"
+          }
+        },
+        "icon-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "LOWEST PRICES GUARANTEED",
+            "content": "<p>Shop Confidently With Our Authorized Retailer Every Day Low Prices<\/p>"
+          }
+        },
+        "icon-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-percent",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "PAY NO SALES TAX",
+            "content": "<p>Save On Tax On All Orders<br\/>(Tax Aren't Factored Into Prices Either)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "#007bff",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "0807ff17-de36-437c-bd0a-4b67ba3747e4": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-support",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "GET IN TOUCH",
+            "content": "<p>Komowa Wellness LLC<br\/>Phone: <br\/>Business Hours M-F 9-5 EST<br\/>Email: Support@komowa.com<br\/>Business Address:<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "SUBSCRIBE FOR LONGEVITY",
+            "content": "<p>Be the first to know about new products and exclusive offers.<\/p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "0807ff17-de36-437c-bd0a-4b67ba3747e4",
+        "text",
+        "newsletter"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

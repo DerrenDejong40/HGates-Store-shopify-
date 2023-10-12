@@ -1,0 +1,87 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "b8a7dd79-727b-4b42-ac62-d63467b5d274": {
+          "type": "message",
+          "settings": {
+            "text": "FREE SHIPPING ON ALL ORDERs"
+          }
+        },
+        "9563b287-798d-4461-8655-9258a6150a86": {
+          "type": "message",
+          "settings": {
+            "text": "PAY NO SALES TAX"
+          }
+        },
+        "d1a748e5-197b-46e1-939d-14cad6266fb0": {
+          "type": "message",
+          "settings": {
+            "text": "CHAT WITH US XXX-XXX-XXXX"
+          }
+        }
+      },
+      "block_order": [
+        "b8a7dd79-727b-4b42-ac62-d63467b5d274",
+        "9563b287-798d-4461-8655-9258a6150a86",
+        "d1a748e5-197b-46e1-939d-14cad6266fb0"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 2,
+        "desktop_font_size": 12,
+        "mobile_font_size": 10,
+        "background": "#253b80",
+        "text_color": "#f5f5f5"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "show_separation_border": true,
+        "reduce_padding": true,
+        "logo": "shopify:\/\/shop_images\/text-1694060650392.png",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "header-menu",
+        "sidebar_menu": "",
+        "menu_open_trigger": "click",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_center_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    },
+    "d53933c5-8369-482f-a795-98ee351f2d54": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{background-color: palegoldenrod;}",
+        ".section-spacing {--section-vertical-spacing: 3px; --section-stack-gap: 0px;}",
+        ".gap-6 {gap: 0;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"container\">\n      <div class=\"v-stack gap-8\"><div class=\"text-with-icons text-with-icons--stacked\" role=\"region\" style=\"--border-color: var(--text-color) \/ 0.15;\"><div class=\"text-with-icons__item is-selected \" role=\"group\" aria-label=\"Item 1 of 3\">\n              <div class=\"v-stack gap-6 justify-items-center sm:justify-items-center\"><div style=\"--border-color: var(--text-color) \/ 0.15;\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"sm:hidden icon icon-picto-delivery-truck\" viewBox=\"0 0 24 24\">\n      <path d=\"M23.25 13.5V6a1.5 1.5 0 0 0-1.5-1.5h-12A1.5 1.5 0 0 0 8.25 6v6m0 0V6h-3a4.5 4.5 0 0 0-4.5 4.5v6a1.5 1.5 0 0 0 1.5 1.5H3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M.75 12h3a1.5 1.5 0 0 0 1.5-1.5V6\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M7.5 19.5a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Zm12 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M12 18h3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"hidden sm:block icon icon-picto-delivery-truck\" viewBox=\"0 0 24 24\">\n      <path d=\"M23.25 13.5V6a1.5 1.5 0 0 0-1.5-1.5h-12A1.5 1.5 0 0 0 8.25 6v6m0 0V6h-3a4.5 4.5 0 0 0-4.5 4.5v6a1.5 1.5 0 0 0 1.5 1.5H3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M.75 12h3a1.5 1.5 0 0 0 1.5-1.5V6\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M7.5 19.5a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Zm12 0a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M12 18h3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><\/div><div class=\"v-stack gap-2 text-center sm:text-center\"><p class=\"h6\">Free shipping<\/p><\/div><\/div>\n            <\/div><div class=\"text-with-icons__item  \" role=\"group\" aria-label=\"Item 2 of 3\">\n              <div class=\"v-stack gap-6 justify-items-center sm:justify-items-center\"><div style=\"--border-color: var(--text-color) \/ 0.15;\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"sm:hidden icon icon-picto-customer-support\" viewBox=\"0 0 24 24\">\n      <path d=\"M12.75 15.75h3v4.5l4.5-4.5h1.494c.832 0 1.506-.674 1.506-1.506V2.25a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5v4.5\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M19.875 7.875a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75m-7.5 0a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75m3.75 0a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M6.75 16.5a3.375 3.375 0 1 0 0-6.75 3.375 3.375 0 0 0 0 6.75Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M12.75 23.25a6.054 6.054 0 0 0-12 0\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"hidden sm:block icon icon-picto-customer-support\" viewBox=\"0 0 24 24\">\n      <path d=\"M12.75 15.75h3v4.5l4.5-4.5h1.494c.832 0 1.506-.674 1.506-1.506V2.25a1.5 1.5 0 0 0-1.5-1.5h-12a1.5 1.5 0 0 0-1.5 1.5v4.5\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M19.875 7.875a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75m-7.5 0a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75m3.75 0a.375.375 0 1 0 0 .75.375.375 0 0 0 0-.75\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M6.75 16.5a3.375 3.375 0 1 0 0-6.75 3.375 3.375 0 0 0 0 6.75Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path d=\"M12.75 23.25a6.054 6.054 0 0 0-12 0\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><\/div><div class=\"v-stack gap-2 text-center sm:text-center\"><p class=\"h6\">Customer service<\/p><\/div><\/div>\n            <\/div><div class=\"text-with-icons__item  \" role=\"group\" aria-label=\"Item 3 of 3\">\n              <div class=\"v-stack gap-6 justify-items-center sm:justify-items-center\"><div style=\"--border-color: var(--text-color) \/ 0.15;\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"sm:hidden icon icon-picto-shield\" viewBox=\"0 0 24 24\">\n      <path d=\"M12 1.254V22.75M21 11H3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M3 4.285v7.274c0 4.708 2.284 8.928 6.882 10.618l1.041.382a3.13 3.13 0 0 0 2.154 0l1.041-.382C18.716 20.487 21 16.267 21 11.559V4.285a1.418 1.418 0 0 0-.868-1.301A18.248 18.248 0 0 0 12 1.254a18.248 18.248 0 0 0-8.132 1.73A1.418 1.418 0 0 0 3 4.285Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><svg aria-hidden=\"true\" focusable=\"false\" fill=\"none\" stroke-width=\"1.9\" width=\"24\" class=\"hidden sm:block icon icon-picto-shield\" viewBox=\"0 0 24 24\">\n      <path d=\"M12 1.254V22.75M21 11H3\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n      <path clip-rule=\"evenodd\" d=\"M3 4.285v7.274c0 4.708 2.284 8.928 6.882 10.618l1.041.382a3.13 3.13 0 0 0 2.154 0l1.041-.382C18.716 20.487 21 16.267 21 11.559V4.285a1.418 1.418 0 0 0-.868-1.301A18.248 18.248 0 0 0 12 1.254a18.248 18.248 0 0 0-8.132 1.73A1.418 1.418 0 0 0 3 4.285Z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n    <\/svg><\/div><div class=\"v-stack gap-2 text-center sm:text-center\"><p class=\"h6\">Secure payment<\/p><\/div><\/div>\n            <\/div><\/div><\/div>\n    <\/div>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "d53933c5-8369-482f-a795-98ee351f2d54"
+  ]
+}

@@ -1,0 +1,377 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</script>
+
+<script>
+  $(document).ready(function () {
+    $('ul .col').click(function () {
+      var tab_id = $(this).attr('data-tab');
+
+      $(this).parent().find('li').removeClass('current');
+      $('.f-tab-content').removeClass('current');
+
+      $(this).addClass('current');
+      $('#' + tab_id).addClass('current');
+    });
+  });
+</script>
+
+<style>
+  ul.f-tabs {
+    margin: 0px;
+    padding: 0px;
+
+    list-style: upper-roman;
+    font-size: larger;
+    font-style: oblique;
+    font-family: fantasy;
+    border-radius: 10px;
+  }
+  ul.f-tabs > li {
+    background: none;
+    color: #747474e6;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  ul.f-tabs > li.current {
+    color: #000000;
+  }
+  .f-tab-content {
+    display: none;
+  }
+  .f-tab-content.current {
+    display: block;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .m-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 25%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 50%;
+  }
+  .right {
+    margin-top: 10%;
+    flex: 25%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+  .scroll-tab {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .m-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu {
+      display: none;
+    }
+    .scroll-tab {
+      display: block;
+    }
+    .scroll-tab ul {
+      list-style: none;
+      width: fit-content;
+      padding: 0 40px;
+      display: flex;
+      gap: 60px;
+      border-bottom: solid 1px #333;
+    }
+    .h-tabs li {
+      padding: 0.5rem 0.6rem;
+      cursor: pointer;
+      transition: 0.5s;
+      white-space: nowrap;
+    }
+
+    li.current,
+    .h-tabs li:hover {
+      border-bottom: solid 3px #333;
+    }
+    .main {
+      display: flex;
+      flex: 100%;
+    }
+    .right {
+      flex: 100%;
+    }
+  }
+</style>
+
+{%- if section.blocks.size > 0 -%}
+  <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <div class="container {% if section.settings.text_alignment == 'center' %}container--xl{% endif %}">
+      <div class="section-stack">
+        {%- render 'section-header',
+          subheading: section.settings.subheading,
+          heading: section.settings.title,
+          content: section.settings.content,
+          text_alignment: section.settings.text_alignment
+        -%}
+
+        <!-- DESKTOP LAYOUT -->
+
+        <x-tabs class="content-tabs {% if section.settings.text_alignment == 'center' %}content-tabs--center{% endif %} sm:block">
+          <template shadowrootmode="open">
+            <slot role="tablist" part="tab-list" name="title"></slot>
+            <slot part="tab-panel-list" name="content"></slot>
+          </template>
+
+          {%- for block in section.blocks -%}
+            {%- assign title = block.settings.title | default: block.settings.page.title -%}
+            {%- assign content = block.settings.page.content | default: block.settings.content -%}
+
+            {%- if title != blank and content != blank -%}
+              <button class="h6" type="button" role="tab" slot="title" {{ block.shopify_attributes }}>
+                {{ title }}
+              </button>
+              <div role="tabpanel" slot="content" {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}>
+                <div class="prose">
+                  {% if title == 'FEATURES' %}
+                    <div>
+                      {% assign feature1 = product.metafields.custom.feature1 | truncatewords: 1, '' %}
+                      {% assign feature11 = feature1 | replace: '_', ' ' %}
+                      {% assign feature2 = product.metafields.custom.feature2 | truncatewords: 1, '' %}
+                      {% assign feature22 = feature2 | replace: '_', ' ' %}
+                      {% assign feature3 = product.metafields.custom.feature3 | truncatewords: 1, '' %}
+                      {% assign feature33 = feature3 | replace: '_', ' ' %}
+                      {% assign feature4 = product.metafields.custom.feature4 | truncatewords: 1, '' %}
+                      {% assign feature44 = feature4 | replace: '_', ' ' %}
+                      {% assign feature5 = product.metafields.custom.feature5 | truncatewords: 1, '' %}
+                      {% assign feature55 = feature5 | replace: '_', ' ' %}
+                      <div class="m-container">
+                        <div class="menu">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <ul class="f-tabs">
+                                <li class="col current" data-tab="f1">
+                                  {{ feature11 }}
+                                </li>
+                                <li class="col" data-tab="f2">{{ feature22 }}</li>
+                                <li class="col" data-tab="f3">{{ feature33 }}</li>
+                                <li class="col" data-tab="f4">{{ feature44 }}</li>
+                                <li class="col" data-tab="f5">{{ feature55 }}</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="main" style="align:center">
+                          <div>
+                            {% assign media = product.media[0] %}
+                            <div>
+                              {%-
+                                render 'media',
+                                media: media,
+                                sizes: 100%,
+                              -%}
+                            </div>
+                          </div>
+                        </div>
+                        <div class="scroll-tab">
+                          <ul class="h-tabs">
+                            <li class="col current" data-tab="f1">
+                              {{ feature11 }}
+                            </li>
+                            <li class="col" data-tab="f2">{{ feature22 }}</li>
+                            <li class="col" data-tab="f3">{{ feature33 }}</li>
+                            <li class="col" data-tab="f4">{{ feature44 }}</li>
+                            <li class="col" data-tab="f5">{{ feature55 }}</li>
+                          </ul>
+                        </div>
+                        <div class="right">
+                          <div id="f1" class="f-tab-content current">
+                            <h2>{{ feature11 }}</h2>
+                            {{ product.metafields.custom.feature1 | remove_first: feature1 }}
+                          </div>
+                          <div id="f2" class="f-tab-content">
+                            <h2>{{ feature22 }}</h2>
+                            {{ product.metafields.custom.feature2 | remove_first: feature2 }}
+                          </div>
+                          <div id="f3" class="f-tab-content">
+                            <h2>{{ feature33 }}</h2>
+                            {{ product.metafields.custom.feature3 | remove_first: feature3 }}
+                          </div>
+                          <div id="f4" class="f-tab-content">
+                            <h2>{{ feature44 }}</h2>
+                            {{ product.metafields.custom.feature4 | remove_first: feature4 }}
+                          </div>
+                          <div id="f5" class="f-tab-content">
+                            <h2>{{ feature55 }}</h2>
+                            {{ product.metafields.custom.feature5 | remove_first: feature5 }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {% else %}
+                    <div>
+                      {% assign j = product.media.size %}
+                      {% assign j = i-1 %}
+                      {%- assign media = product.media.last -%}
+                      <div style="margin:100px">
+                        {%-
+                          render 'media',
+                          media: media,
+                          sizes: 60%,
+                        -%}
+                      </div>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div slot="accordion-tab">
+                {%- render 'accordion', title: title, content: content, open: block.settings.open_on_mobile -%}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </x-tabs>
+
+        <!-- MOBILE LAYOUT -->
+
+        <div class="accordion-group sm:hidden">
+          {%- for block in section.blocks -%}
+            {%- assign title = block.settings.title | default: block.settings.page.title -%}
+            {%- assign content = block.settings.page.content | default: block.settings.content -%}
+
+            {%- if title != blank and content != blank -%}
+              {%- render 'accordion', title: title, content: content, open: block.settings.open_on_mobile -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.tabs.name",
+  "class": "shopify-section--tabs",
+  "max_blocks": 5,
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subheading",
+      "label": "t:global.text.subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "t:global.text.heading",
+      "default": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "t:global.text.alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:global.position.left"
+        },
+        {
+          "value": "center",
+          "label": "t:global.position.center"
+        }
+      ],
+      "default": "center"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "t:sections.tabs.blocks.tab.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "t:global.text.title",
+          "default": "Tab"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:global.text.content",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:sections.tabs.blocks.tab.page",
+          "info": "t:sections.tabs.blocks.tab.page_info"
+        },
+        {
+          "type": "checkbox",
+          "id": "open_on_mobile",
+          "label": "t:sections.tabs.blocks.tab.open_on_mobile",
+          "info": "t:sections.tabs.blocks.tab.open_on_mobile_info",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.tabs.presets.tab.name",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

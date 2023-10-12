@@ -1,0 +1,274 @@
+{
+  "sections": {
+    "f3a4bc95-484a-4112-a93c-5988a1772c74": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21084899541296__f3a4bc95-484a-4112-a93c-5988a1772c74-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "FREQUENTLY ASKED QUESTIONS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21084899541296__f3a4bc95-484a-4112-a93c-5988a1772c74-heading-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/rogerthat101_give_me_an_image_that_represents_saunas_and_biohac_a332a7ab-1b30-4c3b-9947-89ece6d81d6a.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "b04e9e72-80c5-4020-8433-d6ee1c535e20": {
+          "type": "category",
+          "settings": {
+            "title": "Health Considerations",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "What are the health benefits of using a sauna regularly?",
+            "answer": "<p>Regular sauna use can lead to benefits such as improved blood circulation, detoxification, enhanced cognitive function, stress relief, and better sleep.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "How often should I use a sauna, and for how long each session?",
+            "answer": "<p>For optimal benefits, it's recommended to use the sauna 3-4 times a week for 15-20 minutes per session. However, it's always best to consult with a healthcare provider for personalized advice.<\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "How quickly will I see the benefits of using a sauna?",
+            "answer": "<p>Many users report feeling immediate relaxation and stress relief after just one session. However, for long-term health benefits like improved skin health or detoxification, consistent use over several weeks is recommended.<\/p>"
+          }
+        },
+        "6a615b11-9df7-415c-aeb8-bc7f9a346900": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between a 1-person, 2-person, or larger sauna? Which is right for me?",
+            "answer": "<p>The primary difference is size and capacity. A 1-person sauna is compact, ideal for personal relaxation. A 2-person or larger sauna provides more space and is great for shared experiences. Consider your available space and how you intend to use the sauna when deciding. Contact Us for more details and guidance.<\/p>"
+          }
+        },
+        "10bbe4be-2e20-4c64-9214-521bcefa6d52": {
+          "type": "category",
+          "settings": {
+            "title": "Orders",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "3769d1a7-61e0-4fb5-ad25-8c42f81a5c1d": {
+          "type": "question",
+          "settings": {
+            "question": "What are the shipping costs associated with the sauna? Are there any hidden fees?",
+            "answer": "<p>Great news! We offer free shipping on all our saunas. There are absolutely no hidden fees. Our commitment is to provide a seamless and transparent purchasing experience, ensuring you get the best value and service.<\/p>"
+          }
+        },
+        "54071dae-ed99-4e31-8fe3-2b5fe05a9a8c": {
+          "type": "question",
+          "settings": {
+            "question": "What if the sauna arrives damaged or there are missing parts?",
+            "answer": "<p>We generally focus on domestic shipping, but we're open to discussing special arrangements for overseas orders. Feel free to reach out to us to explore your options.<\/p>"
+          }
+        },
+        "5e9984e3-979b-4119-a7b3-88adb0f60062": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>We understand the excitement to begin your wellness journey. Up to date lead times are located on the product pages.<br\/>Typically, our saunas are shipped within 3-5 business days after an order is placed. Depending on your location, it can take an additional 5-7 days for delivery. You'll receive tracking information as soon as your order ships. Need a sauna expedited? Contact us and we will work with you to get the sauna to you as soon as we possibly can.<\/p>"
+          }
+        },
+        "368bb1ca-8456-407a-aea5-45b097dcbb4b": {
+          "type": "question",
+          "settings": {
+            "question": "What if the sauna arrives damaged or there are missing parts?",
+            "answer": "<p>We take utmost care in packaging and shipping our saunas. However, if there's any damage or missing parts upon arrival, please contact our support team immediately. We'll prioritize your request and ensure replacements are sent out promptly.<\/p>"
+          }
+        },
+        "8ad173b5-4099-4439-9909-5b07bbb7e2be": {
+          "type": "category",
+          "settings": {
+            "title": "Installation & Use",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "74741e46-9386-410b-aafa-a8a478c0a3d4": {
+          "type": "question",
+          "settings": {
+            "question": "Do you provide installation services, or do I need to set it up myself?",
+            "answer": "<p>We've got you covered! While our saunas are designed for easy self-installation with a step-by-step guide, we also offer white glove installation services in many areas. For an additional charge, our trusted installation partners will ensure your sauna is set up perfectly in your desired space. Simply reach out to us before placing your order to verify if this service is available at your location. Your wellness journey should be hassle-free from start to finish.<\/p><p>Will I need to hire an electrician?<\/p><p><\/p><p><\/p><p><\/p><p>Do your saunas require any special ventilation or exhaust systems during installation?Can I customize the temperature settings of the sauna?What maintenance is required for the sauna? How often do I need to clean it?<\/p><p>HEALTH CONSIDERATIONS<\/p><p>What are the health benefits of using a sauna regularly?How often should I use a sauna, and for how long each session?How quickly will I see the benefits of using a sauna?What's the difference between a 1-person, 2-person, or larger sauna? Which is right for me?<\/p><p>WARRANTY & RETURNS<\/p><p>Is there a warranty on the sauna? What does it cover?What if the sauna arrives damaged or there are missing parts?Can I return the sauna if I'm not satisfied or if it doesn't fit my space as expected?<\/p><h2>MORE BIOHACKING TOOLS<\/h2><p>SAVE $1,000.00<a href=\"https:\/\/komowa.com\/collections\/vendors?q=Golden%20Designs\">GOLDEN DESIGNS<\/a><a href=\"https:\/\/komowa.com\/products\/copy?pr_prod_strat=use_description&pr_rec_id=33fa5feaf&pr_rec_pid=8632178245936&pr_ref_pid=8629531935024&pr_seq=uniform\">COPY<\/a>SALE PRICE$4,999.00REGULAR PRICE$5,999.00<\/p><h2>THE BIOHACKING ACADEMY<\/h2><p>BLOG POST<\/p><p>Write text about your blog post.<\/p><p>BLOG POST<\/p><p>Write text about your blog post.<\/p><p>BLOG POST<\/p><p>Write text about your blog post.<\/p><p>FAST & FREE SHIPPING<\/p><p>All Orders Ship Free Within 2-3 Business Days<\/p><p>EXPERT CONCIERGE TEAM<\/p><p>Take The Guesswork Out of Choosing Your Biohacking Tool Of Choice<\/p><p>LOWEST PRICES GUARANTEED<\/p><p>Shop Confidently With Our Authorized Retailer Every Day Low Prices<\/p><p>PAY NO SALES TAX<\/p><p>Save On Tax On All Orders<br\/>(Tax Aren't Factored Into Prices Either)<\/p><p>FOOTER MENU<\/p><ul><li><a href=\"https:\/\/komowa.com\/search\">Search<\/a><\/li><\/ul><p>CUSTOMER SUPPORT<\/p><ul><li><a href=\"https:\/\/komowa.com\/pages\/about-us\">About Us<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/contact\">Contact Us<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/talk-to-an-expert\">Request A Consultation<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/faq\">FAQ<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/terms-of-service\">Terms of Service<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/refund-and-return-policy\">Refund and Return Policy<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/privacy-policy\">Privacy Policy<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/shipping-policy\">Shipping Policy<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/billing-terms-and-conditions\">Billing Terms and Conditions<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/payment-policy\">Payment Policy<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/cookie-policy\">Cookie Policy<\/a><\/li><li><a href=\"https:\/\/komowa.com\/pages\/disclaimer\">Disclaimer<\/a><\/li><\/ul><p>GET IN TOUCH<\/p><p>Komowa Wellness LLC<br\/>Phone:<br\/>Business Hours M-F 9-5 EST<br\/>Email: Support@komowa.com<br\/>Business Address:<\/p><p>SUBSCRIBE FOR LONGEVITY<\/p><p>Be the first to know about new products and exclusive offers.<\/p><p>E-mailSUBSCRIBE<\/p><p>© 2023 - KOMOWA<\/p>"
+          }
+        },
+        "a26b21fd-bd02-4cdf-986d-b1b1b857da39": {
+          "type": "question",
+          "settings": {
+            "question": "Will I need to hire an electrician?",
+            "answer": "<p>Standard household electrical outlets are 120 volts. Most are rated at 15 amps and some, like bathrooms or kitchens, may be rated at 20 amps.<\/p><p>Most of our models run on either 120v or 240v depending on the sauna model and the size of the sauna. Please review the specification for the make and model you are interested in to see the electrical requirement or contact our Customer Support Team.<\/p><p>Many of our sauna models will plug into any standard household outlet. Some models may require you to hire an electrician to install the proper electrical circuit.<\/p>"
+          }
+        },
+        "702224d0-6886-4936-9e45-5dcea39b97cc": {
+          "type": "question",
+          "settings": {
+            "question": "Do your saunas require any special ventilation or exhaust systems during installation?",
+            "answer": "<p>No, our saunas are designed to operate without the need for special ventilation or exhaust systems. However, ensuring good air circulation in the room where the sauna is placed is generally a good idea.<\/p>"
+          }
+        },
+        "c284d27a-a951-41c2-8bbe-6f7e76197375": {
+          "type": "question",
+          "settings": {
+            "question": "Can I customize the temperature settings of the sauna?",
+            "answer": "<p>Yes, our saunas feature user-friendly controls, allowing you to customize the temperature to your liking. This ensures every session aligns with your comfort and wellness objectives.<\/p>"
+          }
+        },
+        "386dda1b-faed-4695-bf91-b9416e329069": {
+          "type": "question",
+          "settings": {
+            "question": "What maintenance is required for the sauna? How often do I need to clean it?",
+            "answer": "<p>Maintenance is minimal. Simply wipe down the interior after each use to remove any sweat or moisture. We recommend a deeper clean every few months using natural cleaners to maintain the wood's integrity and freshness.<\/p>"
+          }
+        },
+        "b2c1cd38-657e-463e-b8d9-b23e675a4b6c": {
+          "type": "category",
+          "settings": {
+            "title": "Warranty & Returns",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "c577d8d7-9c8d-4da5-8c90-273db2b9a7d2": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a warranty on the sauna? What does it cover?",
+            "answer": "<p>Yes, our saunas come with a warranty that covers material and workmanship defects. Extended warranties are available for some our products. Consult the products pages for warranty policy specifics.<\/p>"
+          }
+        },
+        "d2a0fa1e-3e1d-4400-9647-1cf6de8bf3f0": {
+          "type": "question",
+          "settings": {
+            "question": "What if the sauna arrives damaged or there are missing parts?",
+            "answer": "<p>We take utmost care in packaging and shipping our saunas. However, if there's any damage or missing parts upon arrival, please contact our support team immediately. We'll prioritize your request and ensure replacements are sent out promptly.<\/p>"
+          }
+        },
+        "2b05a7de-5c01-497b-be68-439ff543284c": {
+          "type": "question",
+          "settings": {
+            "question": "Can I return the sauna if I'm not satisfied or if it doesn't fit my space as expected?",
+            "answer": "<p>We offer a 30-day return policy. Please review our Returns & Refunds Policy for complete details.<\/p>"
+          }
+        },
+        "de24ee68-0bd2-4a4d-87f4-7b265aa2bdf3": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "a9d2fc79-909f-4179-a933-bff9f8db07ca": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "fd9ea3ea-28d8-4ed8-aaa3-057a7bd20686": {
+          "type": "category",
+          "settings": {
+            "title": "Category",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "02ae5ec9-0356-4734-966c-1c241e0a2d6d": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "7d0e465a-17b1-4500-99ad-73b9ad6fd29b": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "60b5dbff-d26d-41e0-ba4f-078a212541b3": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "7d227031-81c1-4d52-8178-82f76aeb8828": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "6616c5c2-c7ad-43f6-b844-5991c6db1335": {
+          "type": "question",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b04e9e72-80c5-4020-8433-d6ee1c535e20",
+        "question-1",
+        "question-2",
+        "question-3",
+        "6a615b11-9df7-415c-aeb8-bc7f9a346900",
+        "10bbe4be-2e20-4c64-9214-521bcefa6d52",
+        "3769d1a7-61e0-4fb5-ad25-8c42f81a5c1d",
+        "54071dae-ed99-4e31-8fe3-2b5fe05a9a8c",
+        "5e9984e3-979b-4119-a7b3-88adb0f60062",
+        "368bb1ca-8456-407a-aea5-45b097dcbb4b",
+        "8ad173b5-4099-4439-9909-5b07bbb7e2be",
+        "74741e46-9386-410b-aafa-a8a478c0a3d4",
+        "a26b21fd-bd02-4cdf-986d-b1b1b857da39",
+        "702224d0-6886-4936-9e45-5dcea39b97cc",
+        "c284d27a-a951-41c2-8bbe-6f7e76197375",
+        "386dda1b-faed-4695-bf91-b9416e329069",
+        "b2c1cd38-657e-463e-b8d9-b23e675a4b6c",
+        "c577d8d7-9c8d-4da5-8c90-273db2b9a7d2",
+        "d2a0fa1e-3e1d-4400-9647-1cf6de8bf3f0",
+        "2b05a7de-5c01-497b-be68-439ff543284c",
+        "de24ee68-0bd2-4a4d-87f4-7b265aa2bdf3",
+        "a9d2fc79-909f-4179-a933-bff9f8db07ca",
+        "fd9ea3ea-28d8-4ed8-aaa3-057a7bd20686",
+        "02ae5ec9-0356-4734-966c-1c241e0a2d6d",
+        "7d0e465a-17b1-4500-99ad-73b9ad6fd29b",
+        "60b5dbff-d26d-41e0-ba4f-078a212541b3",
+        "7d227031-81c1-4d52-8178-82f76aeb8828",
+        "6616c5c2-c7ad-43f6-b844-5991c6db1335"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": true,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "f3a4bc95-484a-4112-a93c-5988a1772c74",
+    "faq"
+  ]
+}

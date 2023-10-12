@@ -1,0 +1,115 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "page_width": "md"
+      }
+    },
+    "c11d4a38-7b8f-41da-ae28-94521438c1a7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21100809060656__c11d4a38-7b8f-41da-ae28-94521438c1a7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>JOURNEY TO WELLNESS<\/strong>",
+            "heading_tag": "h3"
+          }
+        },
+        "template--21100809060656__c11d4a38-7b8f-41da-ae28-94521438c1a7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In recent years, a clear truth arose: our outward achievements mirror our inner well-being. This insight redirected our journey from just living to thriving, leading us to the realm of biohacking. At Komowa, we offer more than just saunas. We're a beacon, blending age-old wisdom with modern innovation, guiding you to unlock and elevate every aspect of your health and life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21100809060656__c11d4a38-7b8f-41da-ae28-94521438c1a7-heading-1",
+        "template--21100809060656__c11d4a38-7b8f-41da-ae28-94521438c1a7-richtext-1"
+      ],
+      "custom_css": [
+        "{max-width: 1400px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/rogerthat101_image_of_biohacking_through_use_of_sauna_5386342a-c465-431d-8eb2-456241190f8e.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "2eb52208-d3f0-4ec5-9d64-54fd22fa28bc": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rogerthat101_of_a_happyand_sweaty_person_stepping_out_of_a_saun_72556d0f-c9d6-4479-95a8-808b06cbdc21.png",
+            "subheading": "",
+            "title": "A Vision Beyond Warmth",
+            "content": "<p>At the heart of Komowa, lies not just a sauna, but a promise — a promise of transcending traditional wellness methods and embracing a future where biohacking isn't just a trend, but a way of life. Our passion extends beyond selling products. We're here to revolutionize the world of wellness, one individual at a time. Saunas are just our starting point in this wellness odyssey.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rogerthat101_an_image_that_captures_the_essence_of_quality_and__9a9d5152-ae64-4d7e-b76e-85daf810ed08.png",
+            "subheading": "",
+            "title": "The Essence of Komowa",
+            "content": "<p>Behind every steamy glass door and every rejuvenating infrared ray lies a commitment — to quality, innovation, and, above all, to you. We aren't just another brand; we're a community, a philosophy. Our legacy in the luxury home market has refined our perspective, giving us a clear understanding of what truly matters: transformative experiences. And that's what Komowa delivers, every single time.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rogerthat101_a_person_using_red_light_therapy_in_a_sauna_18eddff9-7fee-43c2-8b2c-4272e3289d65.png",
+            "subheading": "",
+            "title": "Evolving Beyond Boundaries",
+            "content": "<p>Why stop at saunas when the realm of biohacking offers boundless possibilities? With each passing day, we are on the relentless pursuit of integrating cutting-edge technology with age-old wellness practices. Our goal? To empower you with tools that let you hack your body's potential, achieving optimal wellness and peak performance. This isn't just about relaxation; it's about rejuvenation, resilience, and rediscovery.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-1",
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-2",
+        "template--21100809060656__2eb52208-d3f0-4ec5-9d64-54fd22fa28bc-image_with_text-3"
+      ],
+      "custom_css": [
+        "{max-width: 1400px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#1c1c1c",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c11d4a38-7b8f-41da-ae28-94521438c1a7",
+    "2eb52208-d3f0-4ec5-9d64-54fd22fa28bc"
+  ]
+}

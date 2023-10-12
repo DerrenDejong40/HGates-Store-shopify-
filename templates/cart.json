@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "show_cart_note": true,
+        "show_order_weight": false,
+        "show_shipping_text": false,
+        "show_accelerated_buttons": true,
+        "show_shipping_estimator": false
+      }
+    },
+    "b507861b-a1be-4046-89da-1e8cbce91c33": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "STILL UNDECIDED?"
+          }
+        },
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CHAT WITH AN EXPERT",
+            "heading_tag": "h1"
+          }
+        },
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Expert Phone Support: XXX-XXX-XXXX<\/p><p>Instant Live Chat: <a>Chat Now<\/a><\/p><p>Email Support: <a href=\"mailto:support@komowa.com\" target=\"_blank\" title=\"mailto:support@komowa.com\">support@komowa.com<\/a><\/p><p>Mon-Fri 10am-6pm EST<\/p>"
+          }
+        },
+        "a8a72bea-48d7-48c9-9821-4561deefa841": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "REQUEST A CONSULATION",
+            "url": "#",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-subheading-1",
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-heading-1",
+        "template--21084899049776__b507861b-a1be-4046-89da-1e8cbce91c33-richtext-1",
+        "a8a72bea-48d7-48c9-9821-4561deefa841"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b507861b-a1be-4046-89da-1e8cbce91c33"
+  ]
+}
